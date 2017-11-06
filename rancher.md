@@ -1,6 +1,11 @@
 <!-- TITLE: Rancher -->
 <!-- SUBTITLE: A quick summary of Rancher -->
 
+# Storage
+NFS running on laptop. `172.29.14.182:/var/nfs`
+
+NFS storage volume `wikifiles` added to Rancher. Use in containers as `wikifiles:/path/to/mount/to`
+
 # Create Hosts
 
 ```sh
